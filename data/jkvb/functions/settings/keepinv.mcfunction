@@ -8,4 +8,4 @@ execute if score #keepinv jkvb.mem matches 1 in overworld run gamerule keepInven
 execute if score #keepinv jkvb.mem matches 1 in the_nether run gamerule keepInventory true
 execute if score #keepinv jkvb.mem matches 1 in the_end run gamerule keepInventory true
 
-function jkvb:load
+function jkvb:settings

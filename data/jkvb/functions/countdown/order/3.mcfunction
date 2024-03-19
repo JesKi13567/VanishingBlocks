@@ -1,3 +1,2 @@
 $scoreboard players set #B$(chosen_block) jkvb.mem 1
-$execute unless score #tip_block jkvb.mem matches 1 run tellraw @a ["",{"translate":"block.minecraft.$(chosen_block)","color": "yellow"},"已消失！"]
-$execute if score #tip_block jkvb.mem matches 1 run tellraw @a ["",{"translate":"block.minecraft.$(chosen_block)","color": "yellow"},"已消失！","(",{"score":{"name": "#block","objective": "jkvb.mem"},"color": "yellow"},")"]
+$tellraw @a ["",{"translate":"block.minecraft.$(chosen_block)","color": "yellow"},"已消失！"]
